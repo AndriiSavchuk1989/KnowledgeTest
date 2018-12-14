@@ -1,0 +1,171 @@
+#wrapper,
+.header,
+.navbar,
+.rights,
+#content,
+.info_list {
+	display: flex;
+}
+
+#wrapper {
+	flex-flow: column;
+	height: 100vh;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*HEADER*/
+
+.header {
+	flex-flow: column;
+}
+
+.navbar {
+	background-color: black;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.logo_container {
+	margin-right: auto;
+}
+
+.header_logo {
+	padding-left: 10px;
+}
+
+.navbar_link {
+	font-size: 1.125rem;
+	display: block;
+	padding: 20px 16px;
+}
+
+/*SLIDER*/
+
+.slider_container {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../img/sliders/css3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*justify-content: flex-end;*/
+	text-align: center;
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+.slider_dots {
+	list-style-type: none;
+	position: absolute;
+	bottom: 1%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider_dot {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+/*CONTENT*/
+
+#content {
+	flex-flow: column nowrap;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	height: 90vh;
+	width: 100%;
+}
+
+/*CONTACTS*/
+
+.info_list {
+	flex-flow: nowrap;
+	list-style-type: none;
+	justify-content: space-between;
+}
+
+.marker {
+	vertical-align: middle;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.address,
+.email,
+.phone {
+	padding-left: 5px;
+}
+
+.map {
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+/*FOOTER*/
+
+.footer {
+	background-color: black;
+	color: white;
+}
+
+.rights {
+	padding: 10px 0 10px 0;
+	justify-content: center;
+}
+
+
+/*REGISTRATION*/
+
+.registration_container {
+	margin-top: 20px;
+}
+
+
+.label {
+	margin-top: 20px;
+	display: block;
+	letter-spacing: 2px;
+}
+
+.form {
+	margin: 0 auto;
+	width: 459px;
+}
+
+.input {
+	width: 439px;
+	height: 27px;
+	background: #efefef;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.inputButton {
+	display: block;
+	background-color: gray;
+	width: 127px;
+	height: 38px;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}

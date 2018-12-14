@@ -1,0 +1,43 @@
+#wrapper {
+	position: relative;
+}
+
+#test_container {
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#question {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.answersList {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.answer {
+	flex: 0 0 40%;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 5px;
+	border: 1px solid green;
+	cursor: pointer;
+}
+
+.answer:nth-of-type(n) {
+	margin-top: 2rem;
+}
+
+.answer:hover {
+	background-color: lightgray;
+}
