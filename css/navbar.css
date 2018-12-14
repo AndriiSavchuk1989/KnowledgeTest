@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+}
+
+.header {
+	background-color: black;
+}
+
+.logo_container {
+	margin-right: auto;
+}
+
+.navbar_item {
+	border-right: 1px solid white;
+}
+
+.navbar_item:last-child {
+	border: none;
+}

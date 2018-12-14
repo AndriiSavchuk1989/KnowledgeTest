@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Online tests for web</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style_main.css">
+	<link rel="stylesheet" href="css/test.css">
+	<link rel="stylesheet" href="css/drop.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/about_tests.css">
+	<script data-main="app" src="lib/require.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo_container header_logo_container"><img class="header_logo" src="img/header_icon.png" alt="company_logo" /></div>
+				<ul class="nav_list">
+					<li class="navbar_item"><a class="navbar_link" href="#home">Home</a></li>
+					<li class="navbar_item"><a  class="navbar_link" href="#about_us">About Us</a></li>
+					<li class="dropdown navbar_item">
+						<a  class="navbar_link" href="javascript:void(0)" class="dropbtn">Our Tests</a>
+						<div class="dropdown-content">
+							<a class="navbar_drop_link" href="#html">HTML</a>
+							<a class="navbar_drop_link" href="#css">CSS</a>
+							<a class="navbar_drop_link" href="#javascript">JavaScript</a>
+						</div>
+					</li>
+					<li class="navbar_item"><a class="navbar_link" href="#contacts">Contacts</a></li>
+					<li class="navbar_item"><a class="navbar_link" href="#registration">Registration</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content"></div>
+		<footer class="footer">
+			<div class="rights">
+				&copy; All rights reserved
+			</div>
+		</footer>
+	</div>
+	<script>
+		window.onload = function() {
+			var evt = new Event("click", {
+				bubbles: true,
+				cancelable: false
+			});
+			document.getElementsByClassName("navbar_link")[0].dispatchEvent(evt);
+		}
+	</script>
+</body>
+
+</html>
