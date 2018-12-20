@@ -1,3 +1,8 @@
+#test_section {
+	background-color: chartreuse;
+	height: 100%;
+}
+
 #test_section_header {
 	text-align: center;
 	font-size: 2rem;

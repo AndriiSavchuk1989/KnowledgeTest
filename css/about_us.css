@@ -1,0 +1,25 @@
+#content {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+#about_us_section_header {
+	text-align: center;
+	margin: 2rem 0;
+	font-size: 2rem;
+}
+.question {
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+	font-weight: 500;
+}
+.question:first-letter {
+	font-weight: bold;
+}
+
+.explanation {
+	font-size: 1.375rem;
+	font-weight: 400;
+	text-indent: 0.5rem;
+	margin-bottom: 0.5rem;
+}

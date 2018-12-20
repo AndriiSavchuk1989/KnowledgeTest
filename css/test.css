@@ -19,7 +19,7 @@
 	font-size: 1.5rem;
 }
 
-.answersList {
+#answersList {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;

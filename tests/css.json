@@ -1,0 +1,7 @@
+[
+	["Какой элемент используется для определения стилей ?", "<stylesheet>", "<script>", "<style>", "<css>", 1],
+	["Как расшифровуеться CSS ?", "Colorful Style Sheets", "Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheet", 3],
+	["Какой атрибут задаёт стиль внутри элемента HTML ?", "style", "href", "class", "css", 1],
+	["Как задать стиль сразу для двух элементов <header> и <footer> ?", "header footer {...}", "header+footer {...}", "header;footer {...}", "header,footer {...}", 4],
+	["Как написать селектор только для элемента <ul class='menu'> ?", "#menu", ".menu", ":menu", "[menu]", 5]
+]

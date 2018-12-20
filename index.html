@@ -5,13 +5,17 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Online tests for web</title>
+	<title>EUREKA</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style_main.css">
 	<link rel="stylesheet" href="css/test.css">
 	<link rel="stylesheet" href="css/drop.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/about_tests.css">
+	<link rel="stylesheet" href="css/about_tests.css">
+	<link rel="stylesheet" href="css/after_test_page.css">
+	<link rel="stylesheet" href="css/about_us.css">
+	<script src="lib/user.js"></script>
 	<script data-main="app" src="lib/require.js"></script>
 </head>
 
@@ -19,20 +23,27 @@
 	<div id="wrapper">
 		<header class="header">
 			<nav class="navbar">
-				<div class="logo_container header_logo_container"><img class="header_logo" src="img/header_icon.png" alt="company_logo" /></div>
+				<div class="logo_container header_logo_container"><img class="header_logo" src="img/eureka_logo.png" alt="company_logo" /></div>
 				<ul class="nav_list">
 					<li class="navbar_item"><a class="navbar_link" href="#home">Home</a></li>
-					<li class="navbar_item"><a  class="navbar_link" href="#about_us">About Us</a></li>
-					<li class="dropdown navbar_item">
-						<a  class="navbar_link" href="javascript:void(0)" class="dropbtn">Our Tests</a>
-						<div class="dropdown-content">
+					<li class="navbar_item"><a class="navbar_link" href="#about_us">About Us</a></li>
+					<li class="dropdown  navbar_item">
+						<a class="dropbtn navbar_link" href="javascript:void(0)">Our Tests</a>
+						<div class="dropdown-content left">
 							<a class="navbar_drop_link" href="#html">HTML</a>
 							<a class="navbar_drop_link" href="#css">CSS</a>
 							<a class="navbar_drop_link" href="#javascript">JavaScript</a>
 						</div>
 					</li>
+					<li class="navbar_item"><a class="navbar_link" href="#leaders">Leaders</a></li>
 					<li class="navbar_item"><a class="navbar_link" href="#contacts">Contacts</a></li>
-					<li class="navbar_item"><a class="navbar_link" href="#registration">Registration</a></li>
+					<li class="dropdown navbar_item">
+						<a class="dropbtn navbar_link enter" href="javascript:void(0)"><img src="img/enter-site-button-png-4.png" alt="sign_in_up" class="sign_img" /></a>
+						<div class="dropdown-content right">
+							<a class="navbar_drop_link" href="#registration">Sign up</a>
+							<a class="navbar_drop_link" href="#authorisation">Sign in</a>
+						</div>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -50,7 +61,7 @@
 				cancelable: false
 			});
 			document.getElementsByClassName("navbar_link")[0].dispatchEvent(evt);
-		}
+		};
 	</script>
 </body>
 

@@ -43,7 +43,6 @@ a:active {
 .navbar_link {
 	font-size: 1.125rem;
 	display: block;
-	padding: 20px 16px;
 }
 
 /*SLIDER*/
@@ -72,9 +71,9 @@ a:active {
 
 .slider_dot {
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
 	border: 1px solid black;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin: 10px;
 }
 
@@ -82,8 +81,8 @@ a:active {
 
 #content {
 	flex-flow: column nowrap;
-	/*justify-content: center;*/
-	/*align-items: center;*/
+	justify-content: center;
+	align-items: center;
 	height: 90vh;
 	width: 100%;
 }
@@ -127,25 +126,37 @@ a:active {
 }
 
 
-/*REGISTRATION*/
+/*REGISTRATION & AUTHORISATION*/
 
-.registration_container {
+#registration_container,
+#authorisation_container {
 	margin-top: 20px;
 }
 
 
-.label {
+#reg_name_label,
+#reg_surname_label,
+#reg_email_label,
+#autor_name_label,
+#autor_surname_label,
+#autor_email_label {
 	margin-top: 20px;
 	display: block;
 	letter-spacing: 2px;
 }
 
-.form {
+#reg_form,
+#autor_form {
 	margin: 0 auto;
 	width: 459px;
 }
 
-.input {
+#reg_name_input,
+#reg_surname_input,
+#reg_email_input,
+#autor_name_input,
+#autor_surname_input,
+#autor_email_input {
 	width: 439px;
 	height: 27px;
 	background: #efefef;
@@ -159,7 +170,8 @@ a:active {
 	border-radius: 5px;
 }
 
-.inputButton {
+#regButton,
+#autorButton {
 	display: block;
 	background-color: gray;
 	width: 127px;
